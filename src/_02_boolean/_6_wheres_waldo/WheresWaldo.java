@@ -50,7 +50,7 @@ public class WheresWaldo extends PApplet {
 
     @Override
     public void setup() {
-        
+    	waldo = loadImage("waldo.jpg");
     }
 
     @Override
