@@ -8,8 +8,16 @@ public class PiAloud {
      * If you cannot play sound on this computer, set canPlaySounds to false.
      * If you are not sure, ask your teacher
      * *****************/
-    boolean canPlaySounds = true;
-
+    boolean canPlaySounds = false;
+    public static void main(String[] args) {
+    	 String pi ="3.1415926535 8979323846";
+    	 System.out.println(pi.charAt(0));
+    	 System.out.println(pi.charAt(1));
+    	 for (int i = 0; i<pi.length(); i++) {
+    		 
+    	 }
+    		 
+    }
 
     // 1. Make a main method and make sure your program can run
 
