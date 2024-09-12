@@ -10,11 +10,15 @@ public class PiAloud {
      * *****************/
     boolean canPlaySounds = false;
     public static void main(String[] args) {
-    	 String pi ="3.1415926535 8979323846";
-    	 System.out.println(pi.charAt(0));
-    	 System.out.println(pi.charAt(1));
+    	 String pi ="3.14159265358979323846";
     	 for (int i = 0; i<pi.length(); i++) {
-    		 
+    		 char guess = getInputFromUser();
+    		 if(guess == pi.charAt(i)) {
+    			 System.out.println("Correct!");
+    		 }else {
+    			 System.out.println("Incorrect!"); 
+    		 }
+    		 System.out.println(pi.charAt(i));
     	 }
     		 
     }
